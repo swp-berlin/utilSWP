@@ -1,0 +1,19 @@
+Package: utilSWP
+Title: Collection of functions used to make some data management tasks easier.
+Version: 0.0.0.9000
+Maintainer: Paul Bochtler <paulbochtler.gh@gmail.com>
+Authors@R: 
+    person("Paul", "Bochtler",
+    email = "paulbochtler.gh@gmail.com", 
+    role = c("aut", "cre","cph"),
+    comment = c(ORCID = "0000-0002-9146-6185"))
+Description: Collection of functions used to make some data management tasks easier.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    dplyr,
+    fs,
+    ggplot2,
+    stringr
